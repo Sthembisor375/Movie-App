@@ -10,7 +10,6 @@ function App() {
   return (
     <MovieProvider>
       <NavBar />
-      <Button />
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
